@@ -1,0 +1,79 @@
+C:\Users\user\Desktop\ROBOT>gradlew build --refresh-dependencies --info -Dorg.gradle.java.home="C:\Users\Public\wpilib\2022\jdk"
+Initialized native services in: C:\Users\user\.gradle\native
+Initialized jansi services in: C:\Users\user\.gradle\native
+Starting process 'command 'C:\Users\Public\wpilib\2022\jdk\bin\java.exe''. Working directory: C:\Users\user\.gradle\.tmp\tmp-jvm17335126260265815240probe Command: C:\Users\Public\wpilib\2022\jdk\bin\java.exe -cp . JavaProbe
+Successfully started process 'command 'C:\Users\Public\wpilib\2022\jdk\bin\java.exe''
+Removing 2 daemon stop events from registry
+Starting a Gradle Daemon (subsequent builds will be faster)
+Starting process 'Gradle build daemon'. Working directory: C:\Users\user\.gradle\daemon\7.3.3 Command: C:\Users\Public\wpilib\2022\jdk\bin\java.exe --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.prefs/java.util.prefs=ALL-UNNAMED --add-opens java.prefs/java.util.prefs=ALL-UNNAMED --add-opens java.base/java.nio.charset=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED -XX:MaxMetaspaceSize=256m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=windows-1255 -Duser.country=IL -Duser.language=iw -Duser.variant -cp C:\Users\user\.gradle\permwrapper\dists\gradle-7.3.3-bin\6a41zxkdtcxs8rphpq6y0069z\gradle-7.3.3\lib\gradle-launcher-7.3.3.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 7.3.3
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 11.643 secs.
+The client will now receive all logging from the daemon (pid: 12004). The daemon log file: C:\Users\user\.gradle\daemon\7.3.3\daemon-12004.out.log
+Starting build in new daemon [memory: 512 MiB]
+Using 4 worker leases.
+Watching the file system is configured to be enabled if available
+Now considering [C:\Users\user\Desktop\ROBOT] as hierarchies to watch
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\user\Desktop\ROBOT\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\user\Desktop\ROBOT\build.gradle'.
+Included projects: [root project 'ROBOT']
+
+> Configure project :
+Evaluating root project 'ROBOT' using build file 'C:\Users\user\Desktop\ROBOT\build.gradle'.
+Found locally available resource with matching checksum: [https://plugins.gradle.org/m2/edu/wpi/first/GradleRIO/edu.wpi.first.GradleRIO.gradle.plugin/2022.2.1/edu.wpi.first.GradleRIO.gradle.plugin-2022.2.1.pom, C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.GradleRIO\edu.wpi.first.GradleRIO.gradle.plugin\2022.2.1\f94761f0334765e0b07b8d5f4e4d31b87287c51b\edu.wpi.first.GradleRIO.gradle.plugin-2022.2.1.pom]
+Resource missing. [HTTP HEAD: https://plugins.gradle.org/m2/edu/wpi/first/GradleRIO/edu.wpi.first.GradleRIO.gradle.plugin/2022.2.1/edu.wpi.first.GradleRIO.gradle.plugin-2022.2.1.jar]
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/GradleRIO/2022.2.1/GradleRIO-2022.2.1.pom is up-to-date (lastModified: Sun Jan 16 09:47:24 IST 2022).
+Resource missing. [HTTP GET: https://repo.gradle.org/artifactory/jcenter/edu/wpi/first/GradleRIO/2022.2.1/GradleRIO-2022.2.1.module]
+Cached resource https://plugins.gradle.org/m2/com/google/code/gson/gson/2.8.6/gson-2.8.6.pom is up-to-date (lastModified: Fri Oct 04 21:55:00 IDT 2019).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/native-utils/2022.7.1/native-utils-2022.7.1.pom is up-to-date (lastModified: Wed Dec 15 02:51:55 IST 2021).
+Cached resource https://plugins.gradle.org/m2/de/undercouch/gradle-download-task/4.1.2/gradle-download-task-4.1.2.pom is up-to-date (lastModified: Sat Jul 03 13:19:13 IDT 2021).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/native-utils/2022.7.1/native-utils-2022.7.1.module is up-to-date (lastModified: Wed Dec 15 02:51:55 IST 2021).
+Cached resource https://plugins.gradle.org/m2/com/google/code/gson/gson-parent/2.8.6/gson-parent-2.8.6.pom is up-to-date (lastModified: Fri Oct 04 21:54:49 IDT 2019).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/gradle-cpp-vscode/1.2.0/gradle-cpp-vscode-1.2.0.pom is up-to-date (lastModified: Mon Nov 29 06:28:31 IST 2021).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/ToolchainPlugin/2022.7.1/ToolchainPlugin-2022.7.1.pom is up-to-date (lastModified: Wed Dec 15 02:51:59 IST 2021).
+Cached resource https://plugins.gradle.org/m2/org/ajoberstar/grgit/grgit-core/3.0.0/grgit-core-3.0.0.pom is up-to-date (lastModified: Mon Nov 19 01:10:49 IST 2018).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/ToolchainPlugin/2022.7.1/ToolchainPlugin-2022.7.1.module is up-to-date (lastModified: Wed Dec 15 02:51:59 IST 2021).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/gradle-cpp-vscode/1.2.0/gradle-cpp-vscode-1.2.0.module is up-to-date (lastModified: Mon Nov 29 06:28:31 IST 2021).
+Cached resource https://plugins.gradle.org/m2/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.pom is up-to-date (lastModified: Mon Oct 22 12:21:19 IDT 2018).
+Cached resource https://plugins.gradle.org/m2/org/eclipse/jgit/org.eclipse.jgit-parent/5.1.3.201810200350-r/org.eclipse.jgit-parent-5.1.3.201810200350-r.pom is up-to-date (lastModified: Mon Oct 22 12:18:32 IDT 2018).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/DeployUtils/2022.3.0/DeployUtils-2022.3.0.pom is up-to-date (lastModified: Wed Dec 15 02:37:27 IST 2021).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/DeployUtils/2022.3.0/DeployUtils-2022.3.0.module is up-to-date (lastModified: Wed Dec 15 02:37:27 IST 2021).
+Cached resource https://plugins.gradle.org/m2/com/jcraft/jzlib/1.1.1/jzlib-1.1.1.pom is up-to-date (lastModified: Thu Feb 23 15:03:07 IST 2012).
+Cached resource https://plugins.gradle.org/m2/com/jcraft/jsch/0.1.54/jsch-0.1.54.pom is up-to-date (lastModified: Sat Sep 03 12:42:16 IDT 2016).
+Cached resource https://plugins.gradle.org/m2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.pom is up-to-date (lastModified: Wed Apr 27 05:40:37 IDT 2016).
+Cached resource https://plugins.gradle.org/m2/com/jcraft/jsch/0.1.55/jsch-0.1.55.pom is up-to-date (lastModified: Mon Nov 26 03:15:42 IST 2018).
+Cached resource https://plugins.gradle.org/m2/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar is up-to-date (lastModified: Mon Nov 26 04:04:34 IST 2018).
+Cached resource https://plugins.gradle.org/m2/org/ajoberstar/grgit/grgit-core/3.0.0/grgit-core-3.0.0.jar is up-to-date (lastModified: Mon Nov 19 01:14:28 IST 2018).
+Cached resource https://plugins.gradle.org/m2/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.jar is up-to-date (lastModified: Mon Oct 22 13:18:35 IDT 2018).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/GradleRIO/2022.2.1/GradleRIO-2022.2.1.jar is up-to-date (lastModified: Sun Jan 16 09:47:23 IST 2022).
+Cached resource https://plugins.gradle.org/m2/com/jcraft/jzlib/1.1.1/jzlib-1.1.1.jar is up-to-date (lastModified: Thu Feb 23 15:03:07 IST 2012).
+Cached resource https://plugins.gradle.org/m2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.jar is up-to-date (lastModified: Wed Apr 27 05:40:37 IDT 2016).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/native-utils/2022.7.1/native-utils-2022.7.1.jar is up-to-date (lastModified: Wed Dec 15 02:51:55 IST 2021).
+Cached resource https://plugins.gradle.org/m2/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar is up-to-date (lastModified: Fri Oct 04 21:54:59 IDT 2019).
+Cached resource https://plugins.gradle.org/m2/de/undercouch/gradle-download-task/4.1.2/gradle-download-task-4.1.2.jar is up-to-date (lastModified: Sat Jul 03 13:19:12 IDT 2021).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/gradle-cpp-vscode/1.2.0/gradle-cpp-vscode-1.2.0.jar is up-to-date (lastModified: Mon Nov 29 06:28:31 IST 2021).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/DeployUtils/2022.3.0/DeployUtils-2022.3.0.jar is up-to-date (lastModified: Wed Dec 15 02:37:26 IST 2021).
+Cached resource https://plugins.gradle.org/m2/edu/wpi/first/ToolchainPlugin/2022.7.1/ToolchainPlugin-2022.7.1.jar is up-to-date (lastModified: Wed Dec 15 02:51:59 IST 2021).
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file 'C:\Users\user\Desktop\ROBOT\build.gradle' line: 3
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'edu.wpi.first.GradleRIO', version: '2022.2.1']
+> Failed to apply plugin class 'edu.wpi.first.deployutils.DeployUtils'.
+   > Could not create plugin of type 'DeployUtils'.
+      > Could not generate a decorated class for type DeployUtils.
+         > com/jcraft/jsch/JSch
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 38s
+Watched

@@ -1,0 +1,319 @@
+Microsoft Windows [Version 10.0.19044.1526]
+(c) Microsoft Corporation. כל הזכויות שמורות.
+
+C:\Users\user\Desktop\ROBOT>gradlew build --refresh-dependencies --info -Dorg.gradle.java.home="C:\Users\Public\wpilib\2022\jdk"
+Downloading https://services.gradle.org/distributions/gradle-7.3.3-bin.zip
+...........10%...........20%...........30%...........40%...........50%...........60%...........70%...........80%...........90%...........100%
+Initialized native services in: C:\Users\user\.gradle\native
+Initialized jansi services in: C:\Users\user\.gradle\native
+
+Welcome to Gradle 7.3.3!
+
+Here are the highlights of this release:
+ - Easily declare new test suites in Java projects
+ - Support for Java 17
+ - Support for Scala 3
+
+For more details see https://docs.gradle.org/7.3.3/release-notes.html
+
+Starting process 'command 'C:\Users\Public\wpilib\2022\jdk\bin\java.exe''. Working directory: C:\Users\user\.gradle\.tmp\tmp-jvm5878219471036485506probe Command: C:\Users\Public\wpilib\2022\jdk\bin\java.exe -cp . JavaProbe
+Successfully started process 'command 'C:\Users\Public\wpilib\2022\jdk\bin\java.exe''
+Removing 0 daemon stop events from registry
+Starting a Gradle Daemon (subsequent builds will be faster)
+Starting process 'Gradle build daemon'. Working directory: C:\Users\user\.gradle\daemon\7.3.3 Command: C:\Users\Public\wpilib\2022\jdk\bin\java.exe --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.prefs/java.util.prefs=ALL-UNNAMED --add-opens java.prefs/java.util.prefs=ALL-UNNAMED --add-opens java.base/java.nio.charset=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED -XX:MaxMetaspaceSize=256m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=windows-1255 -Duser.country=IL -Duser.language=iw -Duser.variant -cp C:\Users\user\.gradle\permwrapper\dists\gradle-7.3.3-bin\6a41zxkdtcxs8rphpq6y0069z\gradle-7.3.3\lib\gradle-launcher-7.3.3.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 7.3.3
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 18.249 secs.
+The client will now receive all logging from the daemon (pid: 3548). The daemon log file: C:\Users\user\.gradle\daemon\7.3.3\daemon-3548.out.log
+Starting build in new daemon [memory: 512 MiB]
+Using 4 worker leases.
+Watching the file system is configured to be enabled if available
+Now considering [C:\Users\user\Desktop\ROBOT] as hierarchies to watch
+File system watching is active
+Starting Build
+Compiling settings file 'C:\Users\user\Desktop\ROBOT\settings.gradle' using SubsetScriptTransformer.
+Compiling settings file 'C:\Users\user\Desktop\ROBOT\settings.gradle' using BuildScriptTransformer.
+Settings evaluated using settings file 'C:\Users\user\Desktop\ROBOT\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\user\Desktop\ROBOT\build.gradle'.
+Included projects: [root project 'ROBOT']
+
+> Configure project :
+Evaluating root project 'ROBOT' using build file 'C:\Users\user\Desktop\ROBOT\build.gradle'.
+Compiling build file 'C:\Users\user\Desktop\ROBOT\build.gradle' using SubsetScriptTransformer.
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/GradleRIO/edu.wpi.first.GradleRIO.gradle.plugin/2022.3.1/edu.wpi.first.GradleRIO.gradle.plugin-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download16332483498208582163bin
+Resource missing. [HTTP HEAD: https://plugins.gradle.org/m2/edu/wpi/first/GradleRIO/edu.wpi.first.GradleRIO.gradle.plugin/2022.3.1/edu.wpi.first.GradleRIO.gradle.plugin-2022.3.1.jar]
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/GradleRIO/2022.3.1/GradleRIO-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download206803460739177886bin
+Resource missing. [HTTP GET: https://repo.gradle.org/artifactory/jcenter/edu/wpi/first/GradleRIO/2022.3.1/GradleRIO-2022.3.1.module]
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/native-utils/2022.8.2/native-utils-2022.8.2.pom to C:\Users\user\.gradle\.tmp\gradle_download11648033438970712451bin
+Downloading https://plugins.gradle.org/m2/com/google/code/gson/gson/2.8.6/gson-2.8.6.pom to C:\Users\user\.gradle\.tmp\gradle_download2759240109679201302bin
+Downloading https://plugins.gradle.org/m2/de/undercouch/gradle-download-task/4.1.2/gradle-download-task-4.1.2.pom to C:\Users\user\.gradle\.tmp\gradle_download5128513423844362473bin
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/native-utils/2022.8.2/native-utils-2022.8.2.module to C:\Users\user\.gradle\.tmp\gradle_download904157049180889864bin
+Downloading https://plugins.gradle.org/m2/com/google/code/gson/gson-parent/2.8.6/gson-parent-2.8.6.pom to C:\Users\user\.gradle\.tmp\gradle_download1005197713701925821bin
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/gradle-cpp-vscode/1.3.0/gradle-cpp-vscode-1.3.0.pom to C:\Users\user\.gradle\.tmp\gradle_download303024717566264601bin
+Downloading https://plugins.gradle.org/m2/org/ajoberstar/grgit/grgit-core/3.0.0/grgit-core-3.0.0.pom to C:\Users\user\.gradle\.tmp\gradle_download4115384013045305881bin
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/ToolchainPlugin/2022.8.2/ToolchainPlugin-2022.8.2.pom to C:\Users\user\.gradle\.tmp\gradle_download9583082950946385579bin
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/gradle-cpp-vscode/1.3.0/gradle-cpp-vscode-1.3.0.module to C:\Users\user\.gradle\.tmp\gradle_download620789452146569285bin
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/ToolchainPlugin/2022.8.2/ToolchainPlugin-2022.8.2.module to C:\Users\user\.gradle\.tmp\gradle_download6332071648305908082bin
+Downloading https://plugins.gradle.org/m2/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.pom to C:\Users\user\.gradle\.tmp\gradle_download11963003420319777654bin
+Downloading https://plugins.gradle.org/m2/org/eclipse/jgit/org.eclipse.jgit-parent/5.1.3.201810200350-r/org.eclipse.jgit-parent-5.1.3.201810200350-r.pom to C:\Users\user\.gradle\.tmp\gradle_download754189967914388554bin
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/DeployUtils/2022.3.0/DeployUtils-2022.3.0.pom to C:\Users\user\.gradle\.tmp\gradle_download6921414156592392383bin
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/DeployUtils/2022.3.0/DeployUtils-2022.3.0.module to C:\Users\user\.gradle\.tmp\gradle_download4265222822119615671bin
+Downloading https://plugins.gradle.org/m2/com/jcraft/jsch/0.1.54/jsch-0.1.54.pom to C:\Users\user\.gradle\.tmp\gradle_download8549754435200768233bin
+Downloading https://plugins.gradle.org/m2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.pom to C:\Users\user\.gradle\.tmp\gradle_download16146186335250094498bin
+Downloading https://plugins.gradle.org/m2/com/jcraft/jzlib/1.1.1/jzlib-1.1.1.pom to C:\Users\user\.gradle\.tmp\gradle_download11665473030852078366bin
+Downloading https://plugins.gradle.org/m2/com/jcraft/jsch/0.1.55/jsch-0.1.55.pom to C:\Users\user\.gradle\.tmp\gradle_download11276216709106796195bin
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/GradleRIO/2022.3.1/GradleRIO-2022.3.1.jar to C:\Users\user\.gradle\.tmp\gradle_download1731385401858473791bin
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/ToolchainPlugin/2022.8.2/ToolchainPlugin-2022.8.2.jar to C:\Users\user\.gradle\.tmp\gradle_download8395461482809532671bin
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/DeployUtils/2022.3.0/DeployUtils-2022.3.0.jar to C:\Users\user\.gradle\.tmp\gradle_download10518670691364484687bin
+Downloading https://plugins.gradle.org/m2/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar to C:\Users\user\.gradle\.tmp\gradle_download4357081844854811118bin
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/gradle-cpp-vscode/1.3.0/gradle-cpp-vscode-1.3.0.jar to C:\Users\user\.gradle\.tmp\gradle_download218608582936047246bin
+Downloading https://plugins.gradle.org/m2/edu/wpi/first/native-utils/2022.8.2/native-utils-2022.8.2.jar to C:\Users\user\.gradle\.tmp\gradle_download6835207195500882342bin
+Downloading https://plugins.gradle.org/m2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.jar to C:\Users\user\.gradle\.tmp\gradle_download13072385531878546068bin
+Downloading https://plugins.gradle.org/m2/de/undercouch/gradle-download-task/4.1.2/gradle-download-task-4.1.2.jar to C:\Users\user\.gradle\.tmp\gradle_download6061407721421045826bin
+Downloading https://plugins.gradle.org/m2/com/jcraft/jzlib/1.1.1/jzlib-1.1.1.jar to C:\Users\user\.gradle\.tmp\gradle_download9908005479381719540bin
+Downloading https://plugins.gradle.org/m2/org/ajoberstar/grgit/grgit-core/3.0.0/grgit-core-3.0.0.jar to C:\Users\user\.gradle\.tmp\gradle_download3729426893140364448bin
+Downloading https://plugins.gradle.org/m2/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar to C:\Users\user\.gradle\.tmp\gradle_download5564389954722442168bin
+Downloading https://plugins.gradle.org/m2/org/eclipse/jgit/org.eclipse.jgit/5.1.3.201810200350-r/org.eclipse.jgit-5.1.3.201810200350-r.jar to C:\Users\user\.gradle\.tmp\gradle_download3222197579468222106bin
+Registering vendor dep maven: cb311d09-36e9-4143-a032-55bb2b94443b_0 on project :
+Registering vendor dep maven: ab676553-b602-441f-a38d-f1296eff6537_0 on project :
+Registering vendor dep maven: 3f48eb8c-50fe-43a6-9cb7-44c86353c4cb_0 on project :
+Compiling build file 'C:\Users\user\Desktop\ROBOT\build.gradle' using BuildScriptTransformer.
+All projects evaluated.
+Selected primary task 'build' from project :
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpilibj/wpilibj-java/2022.3.1/wpilibj-java-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download13451432378116495737bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpimath/wpimath-java/2022.3.1/wpimath-java-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download14439850563782449694bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/cscore/cscore-java/2022.3.1/cscore-java-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download13426169220596468076bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-java/2022.3.1/ntcore-java-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download8150000066449806369bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/hal/hal-java/2022.3.1/hal-java-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download746501405367195861bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/thirdparty/frc2022/opencv/opencv-java/4.5.2-1/opencv-java-4.5.2-1.pom to C:\Users\user\.gradle\.tmp\gradle_download13724571601462445974bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/cameraserver/cameraserver-java/2022.3.1/cameraserver-java-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download4230010305011185304bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpilibNewCommands/wpilibNewCommands-java/2022.3.1/wpilibNewCommands-java-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download7547201026139301769bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpiutil/wpiutil-java/2022.3.1/wpiutil-java-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download14089914061976147534bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-simple/0.41/ejml-simple-0.41.pom to C:\Users\user\.gradle\.tmp\gradle_download12538437386115560531bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-simple/0.41/ejml-simple-0.41.module to C:\Users\user\.gradle\.tmp\gradle_download18037115091482181305bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.pom to C:\Users\user\.gradle\.tmp\gradle_download16856419856436333806bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.12/jackson-parent-2.12.pom to C:\Users\user\.gradle\.tmp\gradle_download12814639129549765309bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/41/oss-parent-41.pom to C:\Users\user\.gradle\.tmp\gradle_download2092715996183750377bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.module to C:\Users\user\.gradle\.tmp\gradle_download18144865787060418010bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.pom to C:\Users\user\.gradle\.tmp\gradle_download11129284813364922235bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.12.4/jackson-base-2.12.4.pom to C:\Users\user\.gradle\.tmp\gradle_download2330687493535423183bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.12.4/jackson-bom-2.12.4.pom to C:\Users\user\.gradle\.tmp\gradle_download1302291770663700150bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.module to C:\Users\user\.gradle\.tmp\gradle_download10002200477497129089bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.pom to C:\Users\user\.gradle\.tmp\gradle_download12465097754248256664bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.module to C:\Users\user\.gradle\.tmp\gradle_download10192500559465138111bin
+Downloading https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/revrobotics/frc/REVLib-java/2022.1.1/REVLib-java-2022.1.1.pom to C:\Users\user\.gradle\.tmp\gradle_download15382286132893304085bin
+Resource missing. [HTTP GET: https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/ctre/phoenix/api-java/5.20.2/api-java-5.20.2.pom]
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/api-java/5.20.2/api-java-5.20.2.pom to C:\Users\user\.gradle\.tmp\gradle_download9613835987628286368bin
+Resource missing. [HTTP GET: https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/ctre/phoenix/wpiapi-java/5.20.2/wpiapi-java-5.20.2.pom]
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/wpiapi-java/5.20.2/wpiapi-java-5.20.2.pom to C:\Users\user\.gradle\.tmp\gradle_download1245681090299728196bin
+Downloading https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/kauailabs/navx/frc/navx-java/4.0.442/navx-java-4.0.442.pom to C:\Users\user\.gradle\.tmp\gradle_download8542134463797544368bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-core/0.41/ejml-core-0.41.pom to C:\Users\user\.gradle\.tmp\gradle_download5371828501911433962bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-core/0.41/ejml-core-0.41.module to C:\Users\user\.gradle\.tmp\gradle_download9248764795596915995bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-fdense/0.41/ejml-fdense-0.41.pom to C:\Users\user\.gradle\.tmp\gradle_download14347018321274419487bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-fdense/0.41/ejml-fdense-0.41.module to C:\Users\user\.gradle\.tmp\gradle_download16109931291822505811bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-ddense/0.41/ejml-ddense-0.41.pom to C:\Users\user\.gradle\.tmp\gradle_download18164311843018976277bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-ddense/0.41/ejml-ddense-0.41.module to C:\Users\user\.gradle\.tmp\gradle_download8527293916883494307bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-cdense/0.41/ejml-cdense-0.41.pom to C:\Users\user\.gradle\.tmp\gradle_download5497605189524378668bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-cdense/0.41/ejml-cdense-0.41.module to C:\Users\user\.gradle\.tmp\gradle_download2530135385103393845bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-zdense/0.41/ejml-zdense-0.41.pom to C:\Users\user\.gradle\.tmp\gradle_download4160065089990406524bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-zdense/0.41/ejml-zdense-0.41.module to C:\Users\user\.gradle\.tmp\gradle_download3155742886735995771bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-dsparse/0.41/ejml-dsparse-0.41.pom to C:\Users\user\.gradle\.tmp\gradle_download3996368546291562554bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-dsparse/0.41/ejml-dsparse-0.41.module to C:\Users\user\.gradle\.tmp\gradle_download10120973731864508824bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-fsparse/0.41/ejml-fsparse-0.41.pom to C:\Users\user\.gradle\.tmp\gradle_download14992085798630961566bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-fsparse/0.41/ejml-fsparse-0.41.module to C:\Users\user\.gradle\.tmp\gradle_download10101093532943395282bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-java/2022.3.1/ntcore-java-2022.3.1.jar to C:\Users\user\.gradle\.tmp\gradle_download15942342345239418751bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/cameraserver/cameraserver-java/2022.3.1/cameraserver-java-2022.3.1.jar to C:\Users\user\.gradle\.tmp\gradle_download17517267007899545490bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/cscore/cscore-java/2022.3.1/cscore-java-2022.3.1.jar to C:\Users\user\.gradle\.tmp\gradle_download13147073249928501573bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpilibj/wpilibj-java/2022.3.1/wpilibj-java-2022.3.1.jar to C:\Users\user\.gradle\.tmp\gradle_download5989568109109159080bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpimath/wpimath-java/2022.3.1/wpimath-java-2022.3.1.jar to C:\Users\user\.gradle\.tmp\gradle_download13293976617045496907bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-core/0.41/ejml-core-0.41.jar to C:\Users\user\.gradle\.tmp\gradle_download10301289153264721000bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/hal/hal-java/2022.3.1/hal-java-2022.3.1.jar to C:\Users\user\.gradle\.tmp\gradle_download15582285031641624589bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-zdense/0.41/ejml-zdense-0.41.jar to C:\Users\user\.gradle\.tmp\gradle_download2075908296286902939bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpiutil/wpiutil-java/2022.3.1/wpiutil-java-2022.3.1.jar to C:\Users\user\.gradle\.tmp\gradle_download14662352141638575349bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-cdense/0.41/ejml-cdense-0.41.jar to C:\Users\user\.gradle\.tmp\gradle_download12881196901430933936bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-ddense/0.41/ejml-ddense-0.41.jar to C:\Users\user\.gradle\.tmp\gradle_download2928950655665908317bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/thirdparty/frc2022/opencv/opencv-java/4.5.2-1/opencv-java-4.5.2-1.jar to C:\Users\user\.gradle\.tmp\gradle_download6678480298649674108bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-simple/0.41/ejml-simple-0.41.jar to C:\Users\user\.gradle\.tmp\gradle_download14077651867825015544bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-dsparse/0.41/ejml-dsparse-0.41.jar to C:\Users\user\.gradle\.tmp\gradle_download5488220476405406475bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.jar to C:\Users\user\.gradle\.tmp\gradle_download14077340040371292796bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-fdense/0.41/ejml-fdense-0.41.jar to C:\Users\user\.gradle\.tmp\gradle_download1923749062968432106bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.jar to C:\Users\user\.gradle\.tmp\gradle_download9519872616411444326bin
+Downloading https://repo.maven.apache.org/maven2/org/ejml/ejml-fsparse/0.41/ejml-fsparse-0.41.jar to C:\Users\user\.gradle\.tmp\gradle_download1471471062335732021bin
+Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.jar to C:\Users\user\.gradle\.tmp\gradle_download1088636304397607037bin
+Downloading https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/kauailabs/navx/frc/navx-java/4.0.442/navx-java-4.0.442.jar to C:\Users\user\.gradle\.tmp\gradle_download9997427563527774893bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpilibNewCommands/wpilibNewCommands-java/2022.3.1/wpilibNewCommands-java-2022.3.1.jar to C:\Users\user\.gradle\.tmp\gradle_download7920237792854696164bin
+Downloading https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/revrobotics/frc/REVLib-java/2022.1.1/REVLib-java-2022.1.1.jar to C:\Users\user\.gradle\.tmp\gradle_download14517314734038803314bin
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/wpiapi-java/5.20.2/wpiapi-java-5.20.2.jar to C:\Users\user\.gradle\.tmp\gradle_download13773299499421409971bin
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/api-java/5.20.2/api-java-5.20.2.jar to C:\Users\user\.gradle\.tmp\gradle_download9249747714482576614bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpimath/wpimath-cpp/2022.3.1/wpimath-cpp-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download604728236467535736bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/cscore/cscore-cpp/2022.3.1/cscore-cpp-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download7843356752191391321bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-cpp/2022.3.1/ntcore-cpp-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download8945899692951859016bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/hal/hal-cpp/2022.3.1/hal-cpp-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download10425461584988454034bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/thirdparty/frc2022/opencv/opencv-cpp/4.5.2-1/opencv-cpp-4.5.2-1.pom to C:\Users\user\.gradle\.tmp\gradle_download11098173234402388894bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpiutil/wpiutil-cpp/2022.3.1/wpiutil-cpp-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download196550232081527491bin
+Downloading https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/revrobotics/frc/REVLib-driver/2022.1.1/REVLib-driver-2022.1.1.pom to C:\Users\user\.gradle\.tmp\gradle_download7600503115975903387bin
+Resource missing. [HTTP GET: https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/ctre/phoenix/sim/cci-sim/5.20.2/cci-sim-5.20.2.pom]
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/cci-sim/5.20.2/cci-sim-5.20.2.pom to C:\Users\user\.gradle\.tmp\gradle_download8492800508938386490bin
+Resource missing. [HTTP GET: https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/ctre/phoenix/sim/simTalonSRX/5.20.2/simTalonSRX-5.20.2.pom]
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/simTalonSRX/5.20.2/simTalonSRX-5.20.2.pom to C:\Users\user\.gradle\.tmp\gradle_download9411250035054107055bin
+Resource missing. [HTTP GET: https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/ctre/phoenix/sim/simTalonFX/5.20.2/simTalonFX-5.20.2.pom]
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/simTalonFX/5.20.2/simTalonFX-5.20.2.pom to C:\Users\user\.gradle\.tmp\gradle_download11304909359935447274bin
+Resource missing. [HTTP GET: https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/ctre/phoenix/sim/simVictorSPX/5.20.2/simVictorSPX-5.20.2.pom]
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/simVictorSPX/5.20.2/simVictorSPX-5.20.2.pom to C:\Users\user\.gradle\.tmp\gradle_download13597793101216380033bin
+Resource missing. [HTTP GET: https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/ctre/phoenix/sim/simPigeonIMU/5.20.2/simPigeonIMU-5.20.2.pom]
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/simPigeonIMU/5.20.2/simPigeonIMU-5.20.2.pom to C:\Users\user\.gradle\.tmp\gradle_download2704468644567996343bin
+Resource missing. [HTTP GET: https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/ctre/phoenix/sim/simCANCoder/5.20.2/simCANCoder-5.20.2.pom]
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/simCANCoder/5.20.2/simCANCoder-5.20.2.pom to C:\Users\user\.gradle\.tmp\gradle_download9262274856132808732bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpimath/wpimath-cpp/2022.3.1/wpimath-cpp-2022.3.1-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download11313796132931196702bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-cpp/2022.3.1/ntcore-cpp-2022.3.1-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download10288432333469382321bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/cscore/cscore-cpp/2022.3.1/cscore-cpp-2022.3.1-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download17329106785124818658bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/hal/hal-cpp/2022.3.1/hal-cpp-2022.3.1-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download14983832266170831335bin
+Transforming hal-cpp-2022.3.1-windowsx86-64.zip (edu.wpi.first.hal:hal-cpp:2022.3.1) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.hal\hal-cpp\2022.3.1\d1f1954559513b130619736e187db2d2f230ed5c\hal-cpp-2022.3.1-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.hal\hal-cpp\2022.3.1\d1f1954559513b130619736e187db2d2f230ed5c\hal-cpp-2022.3.1-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpiutil/wpiutil-cpp/2022.3.1/wpiutil-cpp-2022.3.1-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download1111010969818708249bin
+Transforming cscore-cpp-2022.3.1-windowsx86-64.zip (edu.wpi.first.cscore:cscore-cpp:2022.3.1) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.cscore\cscore-cpp\2022.3.1\ce9e4f6fbf3c520e6d533aca953e9522f8caa34\cscore-cpp-2022.3.1-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.cscore\cscore-cpp\2022.3.1\ce9e4f6fbf3c520e6d533aca953e9522f8caa34\cscore-cpp-2022.3.1-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/simCANCoder/5.20.2/simCANCoder-5.20.2-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download7135696928049930520bin
+Transforming simCANCoder-5.20.2-windowsx86-64.zip (com.ctre.phoenix.sim:simCANCoder:5.20.2) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.ctre.phoenix.sim\simCANCoder\5.20.2\ee0c8c11c130dfca7c94454da0c7db17e96b8d32\simCANCoder-5.20.2-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.ctre.phoenix.sim\simCANCoder\5.20.2\ee0c8c11c130dfca7c94454da0c7db17e96b8d32\simCANCoder-5.20.2-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Downloading https://frcmaven.wpi.edu/artifactory/vendor-mvn-release/com/revrobotics/frc/REVLib-driver/2022.1.1/REVLib-driver-2022.1.1-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download17118557186382717212bin
+Transforming REVLib-driver-2022.1.1-windowsx86-64.zip (com.revrobotics.frc:REVLib-driver:2022.1.1) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.revrobotics.frc\REVLib-driver\2022.1.1\2540fcd0781874964f8fcee48e40d2920f814c66\REVLib-driver-2022.1.1-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.revrobotics.frc\REVLib-driver\2022.1.1\2540fcd0781874964f8fcee48e40d2920f814c66\REVLib-driver-2022.1.1-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Transforming ntcore-cpp-2022.3.1-windowsx86-64.zip (edu.wpi.first.ntcore:ntcore-cpp:2022.3.1) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.ntcore\ntcore-cpp\2022.3.1\125b3d18024dc80206cb12254a20683b62fdd6ab\ntcore-cpp-2022.3.1-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.ntcore\ntcore-cpp\2022.3.1\125b3d18024dc80206cb12254a20683b62fdd6ab\ntcore-cpp-2022.3.1-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/simPigeonIMU/5.20.2/simPigeonIMU-5.20.2-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download11357505075623184166bin
+Transforming simPigeonIMU-5.20.2-windowsx86-64.zip (com.ctre.phoenix.sim:simPigeonIMU:5.20.2) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.ctre.phoenix.sim\simPigeonIMU\5.20.2\528dbccba73289190f2da0c8b075829208f973d0\simPigeonIMU-5.20.2-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.ctre.phoenix.sim\simPigeonIMU\5.20.2\528dbccba73289190f2da0c8b075829208f973d0\simPigeonIMU-5.20.2-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/cci-sim/5.20.2/cci-sim-5.20.2-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download13057084966638288950bin
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/simVictorSPX/5.20.2/simVictorSPX-5.20.2-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download4268879386280330925bin
+Transforming simVictorSPX-5.20.2-windowsx86-64.zip (com.ctre.phoenix.sim:simVictorSPX:5.20.2) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.ctre.phoenix.sim\simVictorSPX\5.20.2\3d31f27dbf892b7693631aa9604f81e0750bb195\simVictorSPX-5.20.2-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.ctre.phoenix.sim\simVictorSPX\5.20.2\3d31f27dbf892b7693631aa9604f81e0750bb195\simVictorSPX-5.20.2-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Transforming cci-sim-5.20.2-windowsx86-64.zip (com.ctre.phoenix.sim:cci-sim:5.20.2) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.ctre.phoenix.sim\cci-sim\5.20.2\874c75311d18639ced334936d9735def1511868\cci-sim-5.20.2-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.ctre.phoenix.sim\cci-sim\5.20.2\874c75311d18639ced334936d9735def1511868\cci-sim-5.20.2-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/thirdparty/frc2022/opencv/opencv-cpp/4.5.2-1/opencv-cpp-4.5.2-1-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download5946141884698779769bin
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/simTalonFX/5.20.2/simTalonFX-5.20.2-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download1659144681059880813bin
+Transforming simTalonFX-5.20.2-windowsx86-64.zip (com.ctre.phoenix.sim:simTalonFX:5.20.2) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.ctre.phoenix.sim\simTalonFX\5.20.2\83208498645c129d73887a2f4967fb1944308362\simTalonFX-5.20.2-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.ctre.phoenix.sim\simTalonFX\5.20.2\83208498645c129d73887a2f4967fb1944308362\simTalonFX-5.20.2-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Downloading https://maven.ctr-electronics.com/release/com/ctre/phoenix/sim/simTalonSRX/5.20.2/simTalonSRX-5.20.2-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download13681470693460479161bin
+Transforming simTalonSRX-5.20.2-windowsx86-64.zip (com.ctre.phoenix.sim:simTalonSRX:5.20.2) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.ctre.phoenix.sim\simTalonSRX\5.20.2\21c541cc94b0f863e1be448d88a599c4375b2128\simTalonSRX-5.20.2-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\com.ctre.phoenix.sim\simTalonSRX\5.20.2\21c541cc94b0f863e1be448d88a599c4375b2128\simTalonSRX-5.20.2-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Transforming wpiutil-cpp-2022.3.1-windowsx86-64.zip (edu.wpi.first.wpiutil:wpiutil-cpp:2022.3.1) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.wpiutil\wpiutil-cpp\2022.3.1\71b00a5d05df8ce115af8e9a19f736582efcb60d\wpiutil-cpp-2022.3.1-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.wpiutil\wpiutil-cpp\2022.3.1\71b00a5d05df8ce115af8e9a19f736582efcb60d\wpiutil-cpp-2022.3.1-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Transforming opencv-cpp-4.5.2-1-windowsx86-64.zip (edu.wpi.first.thirdparty.frc2022.opencv:opencv-cpp:4.5.2-1) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.thirdparty.frc2022.opencv\opencv-cpp\4.5.2-1\4bd9e50b842f680e26b07a2214fe8eb05c73c18f\opencv-cpp-4.5.2-1-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.thirdparty.frc2022.opencv\opencv-cpp\4.5.2-1\4bd9e50b842f680e26b07a2214fe8eb05c73c18f\opencv-cpp-4.5.2-1-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Transforming wpimath-cpp-2022.3.1-windowsx86-64.zip (edu.wpi.first.wpimath:wpimath-cpp:2022.3.1) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.wpimath\wpimath-cpp\2022.3.1\209a4ce9d5edb61505608e6238974f29c0e43c18\wpimath-cpp-2022.3.1-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.wpimath\wpimath-cpp\2022.3.1\209a4ce9d5edb61505608e6238974f29c0e43c18\wpimath-cpp-2022.3.1-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/halsim/halsim_ds_socket/2022.3.1/halsim_ds_socket-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download18294325568952301852bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/halsim/halsim_gui/2022.3.1/halsim_gui-2022.3.1.pom to C:\Users\user\.gradle\.tmp\gradle_download13559765839830235966bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/halsim/halsim_gui/2022.3.1/halsim_gui-2022.3.1-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download9061577935205034217bin
+Downloading https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/halsim/halsim_ds_socket/2022.3.1/halsim_ds_socket-2022.3.1-windowsx86-64.zip to C:\Users\user\.gradle\.tmp\gradle_download3743937108803783260bin
+Transforming halsim_ds_socket-2022.3.1-windowsx86-64.zip (edu.wpi.first.halsim:halsim_ds_socket:2022.3.1) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.halsim\halsim_ds_socket\2022.3.1\3904c065f81241013530d84b66552ffa7ab6d7bb\halsim_ds_socket-2022.3.1-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.halsim\halsim_ds_socket\2022.3.1\3904c065f81241013530d84b66552ffa7ab6d7bb\halsim_ds_socket-2022.3.1-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Transforming halsim_gui-2022.3.1-windowsx86-64.zip (edu.wpi.first.halsim:halsim_gui:2022.3.1) with UnzipTransform
+Caching disabled for UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.halsim\halsim_gui\2022.3.1\684526e06c14f7e8528b1b3c3262b4880fa89897\halsim_gui-2022.3.1-windowsx86-64.zip because:
+  Build cache is disabled
+UnzipTransform: C:\Users\user\.gradle\caches\modules-2\files-2.1\edu.wpi.first.halsim\halsim_gui\2022.3.1\684526e06c14f7e8528b1b3c3262b4880fa89897\halsim_gui-2022.3.1-windowsx86-64.zip is not up-to-date because:
+  No history is available.
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':downloadDepsPreemptively', task ':jar', task ':assemble', task ':extractReleaseNative', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test', task ':check', task ':build']
+Tasks that were excluded: []
+Running wrapper inspector on project :
+Found gradle-wrapper.properties on :
+:compileJava (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :compileJava
+Deleting stale output file: C:\Users\user\Desktop\ROBOT\build\classes\java\main
+Deleting stale output file: C:\Users\user\Desktop\ROBOT\build\generated\sources\annotationProcessor\java\main
+Deleting stale output file: C:\Users\user\Desktop\ROBOT\build\generated\sources\headers\java\main
+Watching 1 directory hierarchies to track changes
+Caching disabled for task ':compileJava' because:
+  Build cache is disabled
+Task ':compileJava' is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental task ':compileJava'.
+Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
+Compiling with toolchain 'C:\Users\Public\wpilib\2022\jdk'.
+Compiling with JDK Java compiler API.
+C:\Users\user\Desktop\ROBOT\src\main\java\frc\robot\commands\StraightClimberCommand.java:25: error: cannot find symbol
+    straightClimber.stop();
+                   ^
+  symbol:   method stop()
+  location: variable straightClimber of type StraightClimber
+C:\Users\user\Desktop\ROBOT\src\main\java\frc\robot\subsystems\TurningClimber.java:17: error: cannot find symbol
+  CANSparkMax turner = new CANSparkMax(cClimber.turner, MotorType.kBrushless);
+                                               ^
+  symbol:   variable turner
+  location: class cClimber
+C:\Users\user\Desktop\ROBOT\src\main\java\frc\robot\RobotContainer.java:34: error: cannot find symbol
+  public static XboxController climberController = new XboxController(controller.climberControllerPort);
+                                                                                ^
+  symbol:   variable climberControllerPort
+  location: class controller
+3 errors
+
+> Task :compileJava FAILED
+:compileJava (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 8.109 secs.
+Build Exception: class org.gradle.internal.exceptions.LocationAwareException -> Execution failed for task ':compileJava'.
+Build Exception: class org.gradle.api.tasks.TaskExecutionException -> Execution failed for task ':compileJava'.
+Build Exception: class org.gradle.api.internal.tasks.compile.CompilationFailedException -> Compilation failed; see the compiler error output for details.
+Exception Task: class org.gradle.api.tasks.compile.JavaCompile_Decorated -> compileJava
+Compilation Error!
+GradleRIO detected this build failed due to a Compile Error (compileJava).
+Check that all your files are saved, then scroll up in this log for more information.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4m 48s
+1 actionable task: 1 executed
+Watched directory hierarchies: [C:\Users\user\Desktop\ROBOT]

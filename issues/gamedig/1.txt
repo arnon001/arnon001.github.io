@@ -1,0 +1,9 @@
+Error: Failed all 1 attempts
+    at QueryRunner.run (C:\Users\Arnon\Desktop\Discord-Fivem-Serverstats-master\node_modules\gamedig\lib\QueryRunner.js:88:21)
+    at async Gamedig.query (C:\Users\Arnon\Desktop\Discord-Fivem-Serverstats-master\node_modules\gamedig\lib\index.js:11:16)
+    at async Function.query (C:\Users\Arnon\Desktop\Discord-Fivem-Serverstats-master\node_modules\gamedig\lib\index.js:19:16)
+Attempt #1 - Port=30120 Retry=0:
+Error: UDP - Timed out after 2000ms
+    at Timeout.<anonymous> (C:\Users\Arnon\Desktop\Discord-Fivem-Serverstats-master\node_modules\gamedig\lib\Promises.js:7:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)

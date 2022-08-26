@@ -1,0 +1,358 @@
+[09:42:48] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[09:42:48] [Server thread/INFO]: Loading properties
+[09:42:48] [Server thread/INFO]: This server is running Paper version git-Paper-393 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[09:42:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:42:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:42:48] [Server thread/INFO]: Debug logging is disabled
+[09:42:48] [Server thread/INFO]: Default game type: SURVIVAL
+[09:42:48] [Server thread/INFO]: Generating keypair
+[09:42:49] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25594
+[09:42:49] [Server thread/INFO]: Using epoll channel type
+[09:42:50] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[09:42:50] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.2
+[09:42:50] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.2 is now loaded, injecting!
+[09:42:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[09:42:50] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[09:42:50] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[09:42:50] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[09:42:51] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[09:42:51] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[09:42:51] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[09:42:51] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[09:42:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:42:52] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[09:42:52] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.0-SNAPSHOT-b205
+[09:42:52] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.41
+[09:42:54] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[09:42:54] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[09:42:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7d4c321a]
+[09:42:54] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.7
+[09:42:54] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.7
+[09:42:54] [Server thread/INFO]: [TAB] Loading TAB v3.1.4
+[09:42:54] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.3.0
+[09:42:54] [Server thread/INFO]: [EazyNick] Loading EazyNick v3.14.3
+[09:42:54] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.2.11
+[09:42:54] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.7
+[09:42:54] [Server thread/INFO]: [MRC] Loading MRC v20.12.28
+[09:42:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:42:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.41
+[09:42:55] [Server thread/INFO]:         __    
+[09:42:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.41
+[09:42:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[09:42:55] [Server thread/INFO]: 
+[09:42:55] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[09:42:55] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
+[09:42:56] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Starting...
+[09:42:56] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Start completed.
+[09:42:57] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
+[09:42:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[09:42:58] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[09:42:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3960ms)
+[09:42:58] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[09:42:58] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.7 which is not a depend, softdepend or loadbefore of this plugin.
+[09:42:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[09:42:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:42:58] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[09:42:58] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[09:42:58] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[09:42:58] [Server thread/INFO]: [WorldEdit] Bukkit PluginClassLoader seems to have changed. Class source validation will be skipped.
+[09:42:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[09:42:59] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[09:43:00] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[09:43:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:43:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:43:02] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[09:43:02] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[09:43:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:43:02] [Server thread/INFO]: Preparing level "world"
+[09:43:02] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[09:43:48] [Server thread/INFO]: Loaded 6 recipes
+[09:43:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[09:43:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[09:43:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Mob Spawn Range: 4
+[09:43:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:43:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:43:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:43:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[09:43:49] [Server thread/INFO]: Max TNT Explosions: 100
+[09:43:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:43:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:43:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:43:49] [Server thread/INFO]: View Distance: 10
+[09:43:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:43:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:43:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:43:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:43:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[09:43:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[09:43:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Mob Spawn Range: 4
+[09:43:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:43:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:43:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:43:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[09:43:49] [Server thread/INFO]: Max TNT Explosions: 100
+[09:43:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:43:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:43:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:43:49] [Server thread/INFO]: View Distance: 10
+[09:43:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:43:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:43:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:43:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:43:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[09:43:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[09:43:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:43:49] [Server thread/INFO]: Mob Spawn Range: 4
+[09:43:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:43:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:43:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:43:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[09:43:49] [Server thread/INFO]: Max TNT Explosions: 100
+[09:43:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:43:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:43:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:43:49] [Server thread/INFO]: View Distance: 10
+[09:43:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:43:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:43:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:43:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:43:49] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[09:43:50] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[09:43:50] [Server thread/INFO]: Preparing spawn area: 0%
+[09:43:50] [Server thread/INFO]: Preparing spawn area: 0%
+[09:43:50] [Server thread/INFO]: Time elapsed: 503 ms
+[09:43:50] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[09:43:50] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[09:43:50] [Server thread/INFO]: Time elapsed: 420 ms
+[09:43:50] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[09:43:50] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[09:43:50] [Server thread/INFO]: Time elapsed: 267 ms
+[09:43:50] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[09:43:51] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.4.2 which is not a depend, softdepend or loadbefore of this plugin.
+[09:43:51] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[09:43:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.2
+[09:43:51] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.0-SNAPSHOT-b205
+[09:43:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
+[09:43:51] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[09:43:51] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[09:43:52] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[09:43:52] [Server thread/INFO]: [Essentials] Using locale en
+[09:43:52] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[09:43:52] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[09:43:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[09:43:52] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[09:43:52] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.7
+[09:43:52] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[09:43:52] [Server thread/INFO]: [TAB] Enabling TAB v3.1.4
+[09:43:52] [Server thread/INFO]: [TAB] Server version: 1.15.2 (v1_15_R1)
+[09:43:52] [Server thread/INFO]: [TAB] Loaded NMS hook in 82ms
+[09:43:52] [Server thread/INFO]: [TAB] Enabled in 108ms
+[09:43:52] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[09:43:52] [Server thread/ERROR]: Cannot load configuration from stream
+org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
+ in 'string', line 167, column 1:
+    v
+    ^
+could not find expected ':'
+ in 'string', line 169, column 1:
+    # This is useful for bungeecord  ... 
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:56) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:212) ~[patched_1.15.2.jar:git-Paper-393]
+	at me.leoko.advancedban.bukkit.BukkitMethods.loadFiles(BukkitMethods.java:73) ~[?:?]
+	at me.leoko.advancedban.Universal.setup(Universal.java:66) ~[?:?]
+	at me.leoko.advancedban.bukkit.BukkitMain.onEnable(BukkitMain.java:22) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:380) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugin(CraftServer.java:472) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugins(CraftServer.java:386) ~[patched_1.15.2.jar:git-Paper-393]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:488) ~[patched_1.15.2.jar:git-Paper-393]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:298) ~[patched_1.15.2.jar:git-Paper-393]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:909) ~[patched_1.15.2.jar:git-Paper-393]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'string', line 167, column 1:
+    v
+    ^
+could not find expected ':'
+ in 'string', line 169, column 1:
+    # This is useful for bungeecord  ... 
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:464) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:278) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:226) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:558) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:217) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:141) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:525) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:438) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:54) ~[patched_1.15.2.jar:git-Paper-393]
+	... 14 more
+[09:43:52] [Server thread/ERROR]: Cannot load configuration from stream
+org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
+ in 'string', line 167, column 1:
+    v
+    ^
+could not find expected ':'
+ in 'string', line 169, column 1:
+    # This is useful for bungeecord  ... 
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:56) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:212) ~[patched_1.15.2.jar:git-Paper-393]
+	at me.leoko.advancedban.bukkit.BukkitMethods.loadFiles(BukkitMethods.java:80) ~[?:?]
+	at me.leoko.advancedban.Universal.setup(Universal.java:66) ~[?:?]
+	at me.leoko.advancedban.bukkit.BukkitMain.onEnable(BukkitMain.java:22) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:380) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugin(CraftServer.java:472) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugins(CraftServer.java:386) ~[patched_1.15.2.jar:git-Paper-393]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:488) ~[patched_1.15.2.jar:git-Paper-393]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:298) ~[patched_1.15.2.jar:git-Paper-393]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:909) ~[patched_1.15.2.jar:git-Paper-393]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'string', line 167, column 1:
+    v
+    ^
+could not find expected ':'
+ in 'string', line 169, column 1:
+    # This is useful for bungeecord  ... 
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:464) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:278) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:226) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:558) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:217) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:144) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:85) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:108) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:141) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:525) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:438) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:54) ~[patched_1.15.2.jar:git-Paper-393]
+	... 14 more
+[09:43:52] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[09:43:53] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.pool.PoolBase] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[09:43:53] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[09:43:53] [Server thread/INFO]: 
+ 
+[]=====[Enabling AdvancedBan]=====[]
+| Information:
+|   Name: AdvancedBan
+|   Developer: Leoko
+|   Version: 2.3.0
+|   Storage: HSQLDB (local)
+| Support:
+|   Github: https://github.com/DevLeoko/AdvancedBan/issues
+|   Discord: https://discord.gg/ycDG6rS
+| Twitter: @LeokoGar
+| Update:
+|   You have the newest version
+[]================================[]
+ 
+[09:43:53] [Server thread/INFO]: [EazyNick] Enabling EazyNick v3.14.3
+[09:43:53] [Server thread/INFO]: NICK ┃ ---------- [ EazyNick ] ----------
+[09:43:53] [Server thread/INFO]: NICK ┃ Version 1_15_R1 was loaded successfully
+[09:43:53] [Thread-13/INFO]: [EazyNick-Updater] Checking for updates...
+[09:43:53] [Server thread/INFO]: [MySQL] Connected to database successfully!
+[09:43:53] [Thread-13/INFO]: [EazyNick-Updater] No new version available
+[09:43:53] [Server thread/INFO]: NICK ┃ Plugin by: Justix
+[09:43:53] [Server thread/INFO]: NICK ┃ Version: 3.14.3
+[09:43:53] [Server thread/INFO]: NICK ┃ ---------- [ EazyNick ] ----------
+[09:43:53] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.11
+[09:43:53] [Server thread/INFO]: [SuperVanish] Please install ProtocolLib to be able to use all SuperVanish features: https://www.spigotmc.org/resources/protocollib.1997/
+[09:43:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: supervanish [6.2.11]
+[09:43:53] [Server thread/INFO]: [SuperVanish] Hooked into PlaceholderAPI
+[09:43:53] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[09:43:53] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.7
+[09:43:53] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[09:43:53] [Server thread/INFO]: [MRC] Enabling MRC v20.12.28
+[09:43:53] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[09:43:53] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[09:43:53] [Server thread/INFO]: Running delayed init tasks
+[09:43:53] [Craft Scheduler Thread - 8/INFO]: [Essentials] Fetching version information...
+[09:43:53] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.15.2 (578)
+[09:43:54] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 17 (your version is 1.8.0_312). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[09:43:54] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[09:43:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: eazynick [3.14.3]
+[09:43:54] [Server thread/INFO]: NICK ┃ PlaceholderAPI hooked successfully
+[09:43:54] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[09:43:54] [Server thread/INFO]: Done (65.666s)! For help, type "help"
+[09:43:54] [Server thread/INFO]: Timings Reset
+[09:43:54] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[09:43:54] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[09:43:58] [Server thread/WARN]: [MRC] Task #76 for MRC v20.12.28 generated an exception
+java.lang.NullPointerException: null
+	at org.bukkit.Location.getBlock(Location.java:133) ~[patched_1.15.2.jar:git-Paper-393]
+	at io.bottone.mc.plugins.mrc.gametick.MRCInit.loadLocations(MRCInit.java:113) ~[?:?]
+	at io.bottone.mc.plugins.mrc.gametick.MRCInit.access$000(MRCInit.java:24) ~[?:?]
+	at io.bottone.mc.plugins.mrc.gametick.MRCInit$1.run(MRCInit.java:38) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:99) ~[patched_1.15.2.jar:git-Paper-393]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468) ~[patched_1.15.2.jar:git-Paper-393]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1265) ~[patched_1.15.2.jar:git-Paper-393]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:431) ~[patched_1.15.2.jar:git-Paper-393]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1182) ~[patched_1.15.2.jar:git-Paper-393]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:971) ~[patched_1.15.2.jar:git-Paper-393]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]

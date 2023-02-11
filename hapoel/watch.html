@@ -1,4 +1,88 @@
-<html>
-  <title> yalla hapoel </title>
-  <iframe id="LsPlayer" src="//spbro.live/embed.php/?match_id=7064579&amp;skin=gaming" scrolling="no" frameborder="0" allow="autoplay" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-</html>
+<html><head>
+    <meta charset="UTF-8">
+    <title>Хапоэль Беэр-Шева - Хапоэль Катамон</title>
+    <link href="spbro.live/assets/css/player.css?_=91612bacb116368d8c17a0688007e43a" rel="stylesheet">
+    <link href="spbro.live/assets/css/video-js.css" rel="stylesheet">
+    </head>
+<body style="padding: 0; margin: 0;background-color: black" data-country="il">
+<div>
+    <script type="text/javascript" src="spbro.live/assets/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        var hlsjsSource = "spbro.live/assets/js/dist/hls.min.js?_=91612bacb116368d8c17a0688007e43a";
+        var videojsSource = "spbro.live/assets/js/dist/video.min.js?_=91612bacb116368d8c17a0688007e43a";
+        var videojsIESource = "spbro.live/assets/js/videojs/videojs-ie8.min.js?_=91612bacb116368d8c17a0688007e43a";
+        var videojsYoutubeSource = "spbro.live/assets/js/videojs/Youtube.min.js?_=91612bacb116368d8c17a0688007e43a";
+        var advcontroljsSource = "spbro.live/assets/js/adv-control-v2.js?_=91612bacb116368d8c17a0688007e43a";
+        var videojsFlashSource = "spbro.live/assets/js/videojs/videojs-flash.min.js?_=91612bacb116368d8c17a0688007e43a";
+        var videojsSWFSource = "spbro.live/assets/js/videojs/VideoJS.swf?_=91612bacb116368d8c17a0688007e43a";
+    </script>
+    <script type="text/javascript" src="spbro.live/assets/js/dist/jsplayer.min.js?_=91612bacb116368d8c17a0688007e43a"></script>
+    <div id="video" style="height: 100%; width: 100%;">
+        <video controls="" autoplay="" muted="true" playsinline="" webkit-playsinline="" id="videoplayer" style="width: 100%;height: 100%" src="blob:https://spbro.live/22963772-2885-4868-ac18-4bdde18155f5"></video>
+    </div>
+</div>
+<script type="text/javascript">
+    var globalPlayer;
+    var parentHost = 'baltbet.ru';
+    var aliasesWithAdvListUrl = 'https://spbro.live/adv_aliases.php';
+    var aliasesWithFingerprintListUrl = '//spbro.live/fingerprint_aliases.php';
+    var advRouteDefaultReplacement = '/live/ad_pause/playlist.m3u8';
+    var advPartnerReplacementMapUrl = '';
+    var checkIntervalAdv = '15000';
+    var checkIntervalFingerprint = '15000';
+    var turnOffForHost = 'sportscout.ws';
+    var fingerprintGeneratorUrlPath = '/fp/id.png';
+
+    var $window = $(window),
+        chromeFix =
+            /chrom(e|ium)/.test(navigator.userAgent.toLowerCase()) &&
+            ($window.outerWidth(true) < 400 || $window.outerHeight(true) < 300);
+
+    var serverOptions = {
+    "sources": [
+        {
+            "file": "\/\/s--p12w.smvdn22.live\/live\/AO_C4\/multy.m3u8?match_id=7064579&s_id=1&t_id=1815&stats=stats92.101.253.82&timestamp=1676130372&key=VTJGc2RHVmtYMStqV2ttNzQzNDZCdllTUkU1bHpLcXVuaXJ1am9hLzZWTnFURmFBOERlS093VkpsTkxxdmtWbmZ1R1ltVm5sUEFhTG0ydlA5UXlnN2g1ellCYVVLZENHNVVXQlN5TTJGRHZsd0pjWGxSbWFCZ3BId3RRU1o2Tjl5L0h2RXVqZ1JYb3g2a0VMQkpCTnYrTTVmNWM5ODlqVUNjSXNIeFNtTmJJPQ==",
+            "image": "\/assets\/images\/gaming\/status_background.jpg",
+            "title": "\u0425\u0430\u043f\u043e\u044d\u043b\u044c \u0411\u0435\u044d\u0440-\u0428\u0435\u0432\u0430 - \u0425\u0430\u043f\u043e\u044d\u043b\u044c \u041a\u0430\u0442\u0430\u043c\u043e\u043d"
+        },
+        {
+            "file": "rtmp:\/\/s--p12w.smvdn22.live\/live\/AO_C4?match_id=7064579&s_id=1&t_id=1815&stats=stats92.101.253.82&timestamp=1676130372&key=VTJGc2RHVmtYMStqV2ttNzQzNDZCdllTUkU1bHpLcXVuaXJ1am9hLzZWTnFURmFBOERlS093VkpsTkxxdmtWbmZ1R1ltVm5sUEFhTG0ydlA5UXlnN2g1ellCYVVLZENHNVVXQlN5TTJGRHZsd0pjWGxSbWFCZ3BId3RRU1o2Tjl5L0h2RXVqZ1JYb3g2a0VMQkpCTnYrTTVmNWM5ODlqVUNjSXNIeFNtTmJJPQ==",
+            "image": "\/assets\/images\/gaming\/status_background.jpg",
+            "title": "\u0425\u0430\u043f\u043e\u044d\u043b\u044c \u0411\u0435\u044d\u0440-\u0428\u0435\u0432\u0430 - \u0425\u0430\u043f\u043e\u044d\u043b\u044c \u041a\u0430\u0442\u0430\u043c\u043e\u043d"
+        }
+    ],
+    "primary": "flash",
+    "sharing": false,
+    "height": "100%",
+    "width": "100%",
+    "stretching": "fill",
+    "watermark": "\/\/livesport365.cc\/assets\/img\/LOGO_BALTBET.png",
+    "watermarkPosition": "top-right-baltbet",
+    "mute": false,
+    "autostart": true
+};
+    var playerConfig = playerjs.setup(serverOptions, false);
+
+    if (serverOptions.watermark) {
+        $('#video').append('<img src="'+serverOptions.watermark+'" class="watermark '+serverOptions.watermarkPosition+'" >');
+    }
+
+    var betInfo = '';
+    var muted = false;
+
+    globalPlayer = playerjs.buildAndPlay(playerConfig.playback.type, betInfo, muted);
+
+    var streamSource = playerConfig.playback.source;
+    var streamType = playerConfig.playback.type;
+    var streamAlias = null;
+    var streamServer = null;
+
+    if (streamType === 'default') {
+        var splittedSource = streamSource.split('/');
+        streamAlias = splittedSource[4];
+        streamServer = splittedSource[2];
+        var advUrlDefaultReplacement = "http://" + splittedSource[2] + advRouteDefaultReplacement;
+    }
+</script>
+<script type="text/javascript" src="spbro.live/assets/js/fingerprint.js?_=91612bacb116368d8c17a0688007e43a"></script>
+</body></html>

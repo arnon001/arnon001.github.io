@@ -1,0 +1,186 @@
+Debug [Main] Loaded "qt" translations for locale "en_IL" from "C:/Program Files/Mixxx/translations"
+Warning [Main] Failed to load "mixxx" translations for locale "en_IL" from "C:/Program Files/Mixxx/translations/"
+Debug [Main] Loading resources from  "C:/Program Files/Mixxx/"
+Debug [Main] Found and will use default keyboard mapping "C:/Program Files/Mixxx/keyboard/en_US.kbd.cfg"
+Debug [Main] Loading resources from  "C:/Program Files/Mixxx/"
+Info [Main] Loaded skin "LateNight"
+Debug [Main] SoundSourceProxy - Registering SoundSource providers
+Debug [Main] SoundSourceProxy - Registering platform and fallback SoundSource providers
+Debug [Main] SoundSourceProviderRegistry - Registering provider "Microsoft Media Foundation 10.0.19041.3570"
+Debug [Main] SoundSourceProviderRegistry - Registering file type "aac" for provider "Microsoft Media Foundation 10.0.19041.3570" with priority 4 (higher)
+Debug [Main] SoundSourceProviderRegistry - Registering file type "m4a" for provider "Microsoft Media Foundation 10.0.19041.3570" with priority 4 (higher)
+Debug [Main] SoundSourceProviderRegistry - Registering file type "mp4" for provider "Microsoft Media Foundation 10.0.19041.3570" with priority 4 (higher)
+Debug [Main] SoundSourceProviderRegistry - Registering provider "MAD: MPEG Audio Decoder 0.15.1 (beta) NDEBUG FPM_64BIT ASO_ZEROCHECK"
+Debug [Main] SoundSourceProviderRegistry - Registering file type "mp3" for provider "MAD: MPEG Audio Decoder 0.15.1 (beta) NDEBUG FPM_64BIT ASO_ZEROCHECK" with priority 3 (default)
+Debug [Main] SoundSourceProviderRegistry - Registering provider "MODPlug"
+Debug [Main] SoundSourceProviderRegistry - Registering file type "mod" for provider "MODPlug" with priority 3 (default)
+Debug [Main] SoundSourceProviderRegistry - Registering file type "okt" for provider "MODPlug" with priority 3 (default)
+Debug [Main] SoundSourceProviderRegistry - Registering file type "s3m" for provider "MODPlug" with priority 3 (default)
+Debug [Main] SoundSourceProviderRegistry - Registering file type "stm" for provider "MODPlug" with priority 3 (default)
+Debug [Main] SoundSourceProviderRegistry - Registering file type "xm" for provider "MODPlug" with priority 3 (default)
+Debug [Main] SoundSourceProviderRegistry - Registering file type "it" for provider "MODPlug" with priority 3 (default)
+Info [Main] SoundSourceSndFile - Disabling OGG decoding for "libsndfile-1.2.0"
+Debug [Main] SoundSourceProviderRegistry - Registering provider "libsndfile"
+Debug [Main] SoundSourceProviderRegistry - Registering file type "aiff" for provider "libsndfile" with priority 3 (default)
+Debug [Main] SoundSourceProviderRegistry - Registering file type "caf" for provider "libsndfile" with priority 2 (lower)
+Debug [Main] SoundSourceProviderRegistry - Registering file type "flac" for provider "libsndfile" with priority 2 (lower)
+Debug [Main] SoundSourceProviderRegistry - Registering file type "wav" for provider "libsndfile" with priority 3 (default)
+Debug [Main] SoundSourceProxy - Registering reference SoundSource providers
+Debug [Main] SoundSourceProviderRegistry - Registering provider "Xiph.org libFLAC"
+Debug [Main] SoundSourceProviderRegistry - Registering file type "flac" for provider "Xiph.org libFLAC" with priority 4 (higher)
+Debug [Main] SoundSourceProviderRegistry - Registering provider "Xiph.org OggVorbis"
+Debug [Main] SoundSourceProviderRegistry - Registering file type "ogg" for provider "Xiph.org OggVorbis" with priority 4 (higher)
+Debug [Main] SoundSourceProviderRegistry - Registering provider "Xiph.org libopusfile"
+Debug [Main] SoundSourceProviderRegistry - Registering file type "opus" for provider "Xiph.org libopusfile" with priority 4 (higher)
+Debug [Main] SoundSourceProviderRegistry - Registering provider "WavPack"
+Debug [Main] SoundSourceProviderRegistry - Registering file type "wv" for provider "WavPack" with priority 4 (higher)
+Debug [Main] QMimeType("audio/aac") "aac"
+Debug [Main] QMimeType("audio/x-aiff") "aiff"
+Debug [Main] QMimeType("audio/flac") "flac"
+Debug [Main] QMimeType("audio/x-it") "it"
+Debug [Main] QMimeType("audio/mp4") "m4a"
+Debug [Main] QMimeType("audio/x-mod") "mod"
+Debug [Main] QMimeType("audio/mpeg") "mp3"
+Debug [Main] QMimeType("video/mp4") "mp4"
+Debug [Main] QMimeType("audio/ogg") "ogg"
+Debug [Main] QMimeType("audio/x-flac+ogg") "ogg"
+Debug [Main] QMimeType("audio/x-speex+ogg") "ogg"
+Debug [Main] QMimeType("audio/x-vorbis+ogg") "ogg"
+Debug [Main] QMimeType("video/ogg") "ogg"
+Debug [Main] QMimeType("video/x-theora+ogg") "ogg"
+Debug [Main] QMimeType("audio/x-opus+ogg") "opus"
+Debug [Main] QMimeType("audio/x-s3m") "s3m"
+Debug [Main] QMimeType("audio/x-stm") "stm"
+Debug [Main] QMimeType("audio/x-wav") "wav"
+Debug [Main] QMimeType("audio/x-wavpack") "wv"
+Debug [Main] QMimeType("audio/x-xm") "xm"
+Debug [Main] Mixxx 2.4.0-beta (git 2.4-beta-193-gbc776e07a9; built on: Oct 17 2023 @ 07:26:30; flags: /UTF8;/fp:fast;/Gy;/W3;/WX) is starting...
+Debug [Main] Compile time library versions:
+Debug [Main] Qt: 5.15.8
+Debug [Main] libshout: 2.4.1
+Debug [Main] PortAudio: 1246976 PortAudio V19.7.0-devel, revision unknown
+Debug [Main] RubberBand: 3.2.0
+Debug [Main] SoundTouch: 2.3.1
+Debug [Main] TagLib: 1.13.0
+Debug [Main] ChromaPrint: 1.5.0
+Debug [Main] Vorbis: Xiph.Org libVorbis 1.3.7
+Debug [Main] libsndfile: libsndfile-1.2.0
+Debug [Main] FLAC: 1.4.2
+Debug [Main] libmp3lame: 3.100
+Debug [Main] QStandardPaths::writableLocation(HomeLocation): "C:/Users/Arnon"
+Debug [Main] QStandardPaths::writableLocation(AppDataLocation): "C:/Users/Arnon/AppData/Roaming/Mixxx"
+Debug [Main] QCoreApplication::applicationDirPath() "C:/Program Files/Mixxx"
+Debug [Main] Loading resources from  "C:/Program Files/Mixxx/"
+Info [Main] DbConnection - Available drivers for database connections: ("QSQLITE", "QODBC", "QODBC3")
+Info [Main] DbConnectionPool - Cloned thread-local database connection "MIXXX-1" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [Main] CoreServices - Connecting to database
+Info [Main] CoreServices - Initializing or upgrading database schema
+Info [Main] SchemaManager - Database schema is up-to-date at version 39
+Debug [Main] EngineNetworkStream - addWorker: worker added
+Debug [Main] EngineNetworkStream - worker slots used: "1 out of 16"
+Debug [Main] BroadcastManager - addConnection: created connection for profile "Connection 1"
+Debug [Main] screensaver inhibited
+Info [Main] GlobalTrackCache - Creating instance
+Info [Main] TrackCollection - Connecting database
+Info [Main] TrackCollectionManager - Starting library scanner thread
+Debug [LibraryScanner 1] LibraryScanner - Entering thread
+Info [LibraryScanner 1] DbConnectionPool - Cloned thread-local database connection "MIXXX-2" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [Main] TrackCollection - Connecting track source
+Debug [LibraryScanner 1] LibraryScanner - Event loop starting
+Debug [Main] Committing transaction successfully on "MIXXX-1"
+Debug [Main] PlaylistTableModel(0x250e1cef040) select() returned 0 results in 0 ms
+Debug [Main] CrateFeature::rebuildChildModel() -1
+Debug [Main] Default quick links: ("C:/Users/Arnon/Music/radio/", "C:/Users/Arnon/Music/", "C:/Users/Arnon/Downloads/", "C:/Users/Arnon/Desktop/", "C:/Users/Arnon/Documents/")
+Debug [Main] Appending Quick Link:  "radio" --- "C:/Users/Arnon/Music/radio/"
+Debug [Main] Appending Quick Link:  "Music" --- "C:/Users/Arnon/Music/"
+Debug [Main] Appending Quick Link:  "Downloads" --- "C:/Users/Arnon/Downloads/"
+Debug [Main] Appending Quick Link:  "Desktop" --- "C:/Users/Arnon/Desktop/"
+Debug [Main] Appending Quick Link:  "Documents" --- "C:/Users/Arnon/Documents/"
+Info [Main] Prepared deletion of 0 playlists of type 2 that contain fewer than 1 tracks
+Debug [Main] Committing transaction successfully on "MIXXX-1"
+Debug [Main] Committing transaction successfully on "MIXXX-1"
+Debug [Main] Committing transaction successfully on "MIXXX-1"
+Debug [Main] Traktor Library Location=[ "C:/Users/Arnon/collection.nml" ]
+Debug [Main] Dropping Rekordbox table:  "rekordbox_playlist_tracks"
+Debug [Main] Dropping Rekordbox table:  "rekordbox_playlists"
+Debug [Main] Dropping Rekordbox table:  "rekordbox_library"
+Debug [Main] Creating Rekordbox library table:  "rekordbox_library"
+Debug [Main] Creating Rekordbox playlists table:  "rekordbox_playlists"
+Debug [Main] Creating Rekordbox playlist tracks table:  "rekordbox_playlist_tracks"
+Debug [Main] Committing transaction successfully on "MIXXX-1"
+Debug [Main] Dropping Serato table:  "serato_playlist_tracks"
+Debug [Main] Dropping Serato table:  "serato_playlists"
+Debug [Main] Dropping Serato table:  "serato_library"
+Debug [Main] Creating Serato library table:  "serato_library"
+Debug [Main] Creating Serato playlists table:  "serato_playlists"
+Debug [Main] Creating Serato playlist tracks table:  "serato_playlist_tracks"
+Debug [Main] Committing transaction successfully on "MIXXX-1"
+Info [Main] Library - Access to directory QFileInfo(C:\Users\Arnon\Music\radio) from sandbox granted
+Debug [Main] TrackAnalysisScheduler - Starting 12 worker threads. Priority:  normal
+Debug [AnalyzerThread 0 #1] AnalyzerThread 0 - Running
+Debug [AnalyzerThread 1 #2] AnalyzerThread 1 - Running
+Debug [AnalyzerThread 2 #3] AnalyzerThread 2 - Running
+Debug [AnalyzerThread 4 #4] AnalyzerThread 4 - Running
+Debug [Main] Creating ControllerManager
+Debug [AnalyzerThread 3 #5] AnalyzerThread 3 - Running
+Debug [AnalyzerThread 8 #6] AnalyzerThread 8 - Running
+Debug [AnalyzerThread 6 #7] AnalyzerThread 6 - Running
+Debug [AnalyzerThread 10 #8] AnalyzerThread 10 - Running
+Debug [AnalyzerThread 9 #9] AnalyzerThread 9 - Running
+Debug [AnalyzerThread 7 #10] AnalyzerThread 7 - Running
+Debug [AnalyzerThread 11 #11] AnalyzerThread 11 - Running
+Debug [AnalyzerThread 5 #12] AnalyzerThread 5 - Running
+Info [AnalyzerThread 0 #1] DbConnectionPool - Cloned thread-local database connection "MIXXX-3" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [AnalyzerThread 1 #2] DbConnectionPool - Cloned thread-local database connection "MIXXX-4" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [AnalyzerThread 2 #3] DbConnectionPool - Cloned thread-local database connection "MIXXX-5" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [Controller] ControllerManager:slotInitialize
+Info [AnalyzerThread 4 #4] DbConnectionPool - Cloned thread-local database connection "MIXXX-6" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [Controller] Extension .midi.xml total 0 mappings
+Debug [Controller] Extension .hid.xml total 0 mappings
+Debug [Controller] Extension .bulk.xml total 0 mappings
+Debug [AnalyzerThread 0 #1] AnalyzerThread - Activated 5 analyzers
+Debug [AnalyzerThread 1 #2] AnalyzerThread - Activated 5 analyzers
+Debug [AnalyzerThread 2 #3] AnalyzerThread - Activated 5 analyzers
+Info [AnalyzerThread 3 #5] DbConnectionPool - Cloned thread-local database connection "MIXXX-7" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [AnalyzerThread 4 #4] AnalyzerThread - Activated 5 analyzers
+Info [AnalyzerThread 8 #6] DbConnectionPool - Cloned thread-local database connection "MIXXX-8" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [AnalyzerThread 6 #7] DbConnectionPool - Cloned thread-local database connection "MIXXX-9" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [AnalyzerThread 9 #9] DbConnectionPool - Cloned thread-local database connection "MIXXX-11" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [AnalyzerThread 7 #10] DbConnectionPool - Cloned thread-local database connection "MIXXX-12" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [AnalyzerThread 8 #6] AnalyzerThread - Activated 5 analyzers
+Debug [AnalyzerThread 6 #7] AnalyzerThread - Activated 5 analyzers
+Info [AnalyzerThread 10 #8] DbConnectionPool - Cloned thread-local database connection "MIXXX-10" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [AnalyzerThread 11 #11] DbConnectionPool - Cloned thread-local database connection "MIXXX-13" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Info [AnalyzerThread 5 #12] DbConnectionPool - Cloned thread-local database connection "MIXXX-14" QSqlDatabase(driver="QSQLITE", database="file:///C:/Users/Arnon/AppData/Local/Mixxx/mixxxdb.sqlite", host="", port=-1, user="mixxx", open=true)
+Debug [AnalyzerThread 3 #5] AnalyzerThread - Activated 5 analyzers
+Debug [AnalyzerThread 9 #9] AnalyzerThread - Activated 5 analyzers
+Debug [AnalyzerThread 7 #10] AnalyzerThread - Activated 5 analyzers
+Debug [AnalyzerThread 10 #8] AnalyzerThread - Activated 5 analyzers
+Debug [AnalyzerThread 11 #11] AnalyzerThread - Activated 5 analyzers
+Debug [AnalyzerThread 5 #12] AnalyzerThread - Activated 5 analyzers
+Debug [Main] Displaying main window
+Debug [Main] Running Mixxx
+Debug [Main] OpenGL driver version string "4.6.0 Compatibility Profile Context 23.10.1.230929", vendor "ATI Technologies Inc.", renderer "AMD Radeon RX 6700 XT"
+Debug [Main] Supported OpenGL version: 4.6
+Debug [Main] ControllerManager::getControllerList
+Info [Main] Loaded skin "LateNight"
+Info [Main] Loaded skin "LateNight"
+Debug [Controller] Extension .midi.xml total 128 mappings
+Debug [Controller] Extension .hid.xml total 15 mappings
+Debug [Controller] Extension .bulk.xml total 1 mappings
+Debug [Controller] ControllerManager: Setting up devices
+Debug [Controller] Scanning PortMIDI devices:
+Debug [Controller]  Found output device # 0 Microsoft MIDI Mapper
+Debug [Controller]  Found output device # 1 Microsoft GS Wavetable Synth
+Debug [Controller] Scanning HSS1394 devices:
+Debug [Controller]    Nodes detected: 0
+Info [Controller] Scanning USB HID devices
+Debug [Main] Key plugin ID: ""
+Info [Controller] Found HID device: { 046d:c09d r5202 | Usage: ff00:0001 | Interface: #1 | Manufacturer: Logitech | Product: G102 LIGHTSYNC Gaming Mouse | S/N: 205D357B5057 }
+Info [Controller] Found HID device: { c0f4:01f5 r110 | Usage: 0001:0080 | Interface: #1 | Manufacturer: Usb KeyBoard | Product: Usb KeyBoard }
+Info [Controller] Found HID device: { 046d:c09d r5202 | Usage: ff00:0002 | Interface: #1 | Manufacturer: Logitech | Product: G102 LIGHTSYNC Gaming Mouse | S/N: 205D357B5057 }
+Info [Controller] Found HID device: { 2516:0051 r1101 | Usage: 0001:0080 | Interface: #2 | Manufacturer: Cooler Master Technology Inc. | Product: AMD SR4 lamplight Control }
+Info [Controller] Found HID device: { 2516:0051 r1101 | Usage: 000c:0001 | Interface: #2 | Manufacturer: Cooler Master Technology Inc. | Product: AMD SR4 lamplight Control }
+Info [Controller] Found HID device: { 2516:0051 r1101 | Usage: ff00:0001 | Interface: #1 | Manufacturer: Cooler Master Technology Inc. | Product: CYRM02p0303h00E0r0100 }
+Info [Controller] Excluding HID device { c0f4:01f5 r110 | Usage: 0001:0006 | Interface: #0 | Manufacturer: Usb KeyBoard | Product: Usb KeyBoard }
+Info [Controller] Found HID device: { 046d:0ab9 r201 | Usage: 000c:0001 | Interface: #2 | Manufacturer: Blue Microphones | Product: Blue Snowball | S/N: 2109BAA02UJ8 }
